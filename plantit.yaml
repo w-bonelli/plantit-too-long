@@ -2,7 +2,7 @@ name: Too Long
 author: Wes Bonelli
 public: False
 image: docker://alpine
-commands: echo "Sleeping for 120 seconds..." && sleep 120
+commands: echo "Sleeping for 10 minutes..." && sleep 600
 resources:
   time: "00:01:00"
   mem: "1GB"

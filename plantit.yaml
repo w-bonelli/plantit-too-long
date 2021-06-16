@@ -3,8 +3,8 @@ author: Wes Bonelli
 public: False
 image: docker://alpine
 commands: echo "Sleeping for 10 minutes..." && sleep 600
-resources:
+jobqueue:
   time: "00:01:00"
-  mem: "1GB"
+  memory: "1GB"
   cores: 1
   processes: 1
